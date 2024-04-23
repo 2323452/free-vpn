@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic-ext');
+
+body {background: #1B1B1B; color: white; font-family: 'Open Sans', sans-serif; transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35); position: relative;} /* #10427d */
+body.background--on {background: #2B2B2B; transition: 1.5s ease-in-out;} /* #b51f5c */
+
+.deeprism-logo {width: 100%; height: 70px; background: transparent url(https://media.discordapp.net/attachments/1226772951181824011/1232052211513557033/crvt.co-partner_2.png?ex=66280d89&is=6626bc09&hm=088bc829fad4ea502e4e53842343bc52f722b516146a283e33e692638c07ddba&=&format=webp&quality=lossless) no-repeat center; margin: 25px 0 50px 0;}
+.activate {font-weight: 400; font-size: 20px; text-align: center; text-transform: uppercase;}
+.ip {font-weight: 300; font-size: 24px; text-align: center; text-transform: uppercase; height: 33px;}
+.location {font-weight: 300; font-size: 24px; text-align: center; text-transform: uppercase; height: 33px;}
+.text {font-weight: 300; font-size: 18px; text-align: center; text-transform: uppercase; margin-top: 37px;}
+.toggle-body {width: 4rem; position: relative; height: 2rem; margin: 35px auto; background: white; border-radius: 2rem;}
+.toggle-body--off {animation: angle-reverse 1.5s ease-in-out;}
+.toggle-body--on {animation: angle 1.5s ease-in-out; animation-direction: alternate;}
+.toggle-btn {width: 1rem; height: 1rem; position: absolute; top: calc(50% - 1rem / 2); left: calc(27% - 1rem / 2); background: white; border-radius: 2rem;
+            background: #2B2B2B; cursor: pointer; transform:  translateX(0); transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);}
+.toggle-btn--on {transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35); transform:  translateX(150%); background: #1B1B1B;}
+
+.footer {position: absolute; width: 100%; bottom: 15px; left: 0; text-align: center;}
+.footer a {font-weight: 300; font-size: 12px; line-height: 28px; letter-spacing: 5px; text-transform: uppercase; text-decoration: none; color: white;}
+
+@keyframes angle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes angle-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

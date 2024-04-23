@@ -1,0 +1,35 @@
+{
+    "appDesc": {
+        "message": "Безлимитный прокси | Обойти блокировку, сменить IP | RU VPN для Chrome"
+    },
+    "activate": {
+        "message": "Включить и Выключить"
+    },
+    "auto_connect": {
+        "message": "Автоматическое подключение<br />при открытии браузера."
+    },
+    "link_review": {
+        "message": "Оставить отзыв"
+    },
+    "link_free_vpn": {
+        "message": "Бесплатный RU VPN"
+    },
+    "link_donate": {
+        "message": "Поддержать проект"
+    },
+    "link_setrtings": {
+        "message": "Настройки"
+    },
+    "disconnected": {
+        "message": "Нет соединения"
+    },
+    "connected": {
+        "message": "ЗАПУЩЕННО"
+    },
+    "error_server_auth": {
+        "message": "Ошибка авторизации сервера"
+    },
+    "error_server_1": {
+        "message": "Сервер ответил ошибкой"
+    }
+}
